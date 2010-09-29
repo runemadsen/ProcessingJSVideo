@@ -1,0 +1,13 @@
+#videotag {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+}
+
+#canvastag {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+}
