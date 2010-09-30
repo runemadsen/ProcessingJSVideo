@@ -4,8 +4,7 @@ void setup()
 	smooth();
 	fill(255, 0, 0);
 	noStroke();
-	$("#videotag")[0].pause();
-	
+  pauseVideo();	
 }
 
 void draw() 

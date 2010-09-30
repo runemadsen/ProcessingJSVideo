@@ -7,6 +7,10 @@
     <script type="text/javascript" src="jquery.js"></script>
      
 		<script>
+		function pauseVideo(){
+		  $("#videotag")[0].pause();
+		}
+		
 		function videoIsReady(){
 		  return $("#videotag")[0].readyState == 4;
 		}
@@ -14,13 +18,6 @@
 		function goToTime(time){
 		  $("#videotag")[0].currentTime = time;
 		}
-		
-	  function scrubBackwards(){
-      $("#videotag")[0].currentTime = $("#videotag")[0].currentTime - 0.08;
-	  }
-	  function scrubForwards(){
-      $("#videotag")[0].currentTime = $("#videotag")[0].currentTime + 0.08;
-	  }
  
 		</script>
 		<script src="processing-0.9.1.min.js"></script>
